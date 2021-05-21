@@ -1,0 +1,105 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    color: white;
+}
+
+h2 {
+    color: rgb(110, 109, 104);
+}
+
+body{
+    background-image: linear-gradient(180deg, rgb(148, 196, 228), rgb(84, 112, 133));
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body div{
+    background-color: rgb(224, 221, 216);
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 3px rgb(75, 100, 117);
+}
+
+input {
+    border: none;
+    box-shadow: inset 1px 1px 2px 1px rgb(184, 182, 177);
+    background-color: rgb(207, 205, 200);
+}
+
+label {
+    font-weight: bold;
+    color: rgb(151, 149, 144);
+}
+
+
+
+/* MODAL */
+
+#abrirModal{
+    background-color: rgba(255, 0, 0, 0)
+}
+
+.plus{
+    padding: 5px;
+    font-size: 2.5rem;
+    color: rgb(75, 100, 117);
+    border-radius: 10px;
+    border: 5px outset rgb(52, 69, 80);
+}
+
+.plus:hover{
+        border: 5px inset rgb(52, 69, 80);
+        cursor: pointer;
+}
+.modal{
+    display: none;
+}
+
+
+
+
+
+#tareas{
+    display: flex;
+    flex-direction: row;
+    display: none;
+}
+
+#listaTareas{
+    box-shadow: none;
+    border: none;
+}
+
+#listaEstados{
+    box-shadow: none;
+    border: none;
+}
+
+
+.tareas{
+    margin: 10px 0;
+    padding: 0;
+    box-shadow: none;
+    border: none;
+    display: inline-block;
+}
+
+.estados{
+    margin: 10px 0;
+    padding: 0;
+    box-shadow: none;
+    border: none;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora PVC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Calculadora de Kg</h1>
+        <div>
+            <select name="" id="material" onchange="select()">
+                <option disabled selected value="seleccionar">-- Elige un material --</option>
+                <option id="pvc" value="pvc">PVC</option>
+                <option id="chapa" value="chapa">Chapa</option>
+            </select> <br><br>
+            <label id="anchoLabel" for="ancho">Ancho</label> <br>
+            <input id="ancho" type="text"> <br> <br>
+            <label id="largoLabel" for="largo">Largo</label> <br>
+            <input id="largo" type="text"> <br> <br>
+            <label id="espesorLabel" for="espesor">Espesor</label> <br>
+            <input id="espesor" type="text"> <br> <br>
+            <label id="cantidadLabel" for="cantidad">Cantidad</label> <br>
+            <input id="cantidad" type="text"> <br><br>
+            <button type="button" onclick="calcularPeso();">Calcular</button> <br><br>
+            <h2 id="total">Kg totales:</h2>
+        </div>
+    <script src="scripts/scriptsCalculadora.js"></script>
+</body>
+</html>
